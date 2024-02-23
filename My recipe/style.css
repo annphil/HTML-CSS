@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .innovation-left,
+header .innovation-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #B6E4EA;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+.recipe {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+}
+
+.recipe img {
+    width: 200px;
+    height: 150px;
+    /* Additional styles */
+    margin-bottom: 10px;
+    border-radius: 5px; /* Optional: add rounded corners */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
